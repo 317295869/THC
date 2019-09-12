@@ -1,6 +1,8 @@
-- Git
-- Linux
-- Shell
-- bash/ dash
-- Sistema operativo
-- Kernel
+01
+- Git: Es una nube para archivos de texto plano y esta disponible la carpeta del archivo en cualquier lugar
+- Linux: Es un sistema operativo
+- Shell: ES un interprete de comandos
+- bash/ dash: Son tipos de Shell
+- Sistema operativo: Conjunto de órdenes y programas que controlan los procesos básicos de una computadora y permiten el funcionamiento de otros programas.
+- Kernel: Es un software que constituye una parte fundamental del sistema operativo.
+
