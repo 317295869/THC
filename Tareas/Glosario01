@@ -1,8 +1,67 @@
 01
-- Git: Es una nube para archivos de texto plano y esta disponible la carpeta del archivo en cualquier lugar
-- Linux: Es un sistema operativo
-- Shell: ES un interprete de comandos
-- bash/ dash: Son tipos de Shell
+- Git: Es una nube para archivos de texto plano y esta disponible la carpeta del archivo en cualquier lugar.
+- Linux: Es un sistema operativo.
+- Shell: ES un interprete de comandos.
+- bash/ dash: Son tipos de Shell.
 - Sistema operativo: Conjunto de órdenes y programas que controlan los procesos básicos de una computadora y permiten el funcionamiento de otros programas.
 - Kernel: Es un software que constituye una parte fundamental del sistema operativo.
+02
+- BIOS: Es el sistema básico de entrada-salida que no es actualizable (configurable)
+- UEFI: Es el sistema básico de entrada-salida que si es actualizable.
+- Imagen ISO: Es un archivo informático donde se almacena una copia o imagen exacts de un sistema de archivos.
+- Linux: Es un  sistema operativo libre tipo Unix POSIX; multiplataforma, multiusuario y multitarea.
+03
+- Archivo de texto plano: Es un archivo informático que contiene únicamente texto formado solo por caracteres que son legibles por humanos, careciendo de cualquier tipo de formato tipográfico.
+04
+- Repositorio: Es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital, habitualmente archivos.
+- git add: Es el comando que sirve para agregar archivos al repositorio de git.
+- git push: Es el comando que sirve para subir archivos a la nube de git.
+- git pull: Es el comando que sirve para sincronizar el equipo con la nube.
+- git status: Es el comando para ver el estado actual de git.
+- pwd: Es el comando para ver en que directorio se encuentra uno en ese momento.
+- ls/home: Es el comando que me muestra los directorios con los que cuenta la computadora.
+- man ls: Es el comando que me muestra el manual de ls.
+- man man: Es el comando que me muestra el manual del manual.
+- man bash: Es el comando que me muestra el manual de bash.
+05
+- Nube: Es un paradigma que permite ofrecer servicios de computación a través de una red, que usualmente es Internet.
+- git clone: Es el comando que sirve para clonar todos los archivos del repositorio a la computadora.
+- git commit: Es el comando que sirve para registrar cambios.
+06
+- tmp: Es el almacenamiento temporal en una computadora. En esta los archivos se borran automáticamente al apagar el equipo.
+- history: Es el comando que muestra los últimos comandos utilizados.
+- history|less: Es el comando que al resultado de hystory lo pasa a less. Pagina los archivos.
+- less: Pagina el contenido de una página.
+- ^L: Limpia la terminal.
+- . : Archivo que no se usa o que está oculto.
+- mkdir: Es el comando que sirve para crear un nuevo directorio.
+- top: Es el comando para el proceso de estado de ejecución.
+07
+- man git: Es el comando que muestra que manual de git.
+- git config --global user.name
+  "                 " credential.username
+  "                 " user.email
+  "                 " push.default       : Son los procesos a seguir para la configuración de git.
+- cat: Es el comando para concadenar.
+- grep: Es el comando para hacer filtro.
+- ^C: Cancela una acción.
+- cd: Es el comando que nos lleva al directorio nombrado.
+- ls: ES el comando que nos muestra que contiene el directorio nombrado.
+08
+- . : Directorio en el que estoy trabajando.
+- .. : Directorio anterior
+- ~: Directorio home.
+- /: Raíz del sistema.
+- w: Usuario.
+- ssh: Cliente
+09
+- rm -rf: Borra el archivo o directorio.
+10
+- IDLE: Es un entorno de desarrollo.
+- Archivo binario: Es un archivo informático que contiene información de cualquier tipo codificada en binario para el propósito de almacenamiento y procesamiento en ordenadores.
+- Programa: Es una secuencia de instrucciones, escritas para realizar una tarea específica en una computadora.
+- Python: Es un lenguaje de programación interpretado cuya filosofía hace incapié en una sintaxis que favorezca un codigo legible.
+- ^S: Guarda los cambios en un archivo.
+- F5: Corre el programa, lo actualiza.
+
 
