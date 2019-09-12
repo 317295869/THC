@@ -1,0 +1,15 @@
+Paradigmas de la Programación.
+Un paradigma de programación es un estilo de desarrollo de programas. Es decir, un modelo para resolver problemas computacionales. Los lenguajes de programación, necesariamente, se encuadran en uno o varios paradigmas a la vez a partir del tipo de órdenes que permiten implementar, algo que tiene una relación directa con su sintaxis.
+
+¿Cuáles son los principales paradigmas de programación?
+
+Imperativo. Los programas se componen de un conjunto de sentencias que cambian su estado. Son secuencias de comandos que ordenan acciones a la computadora.
+Declarativo. Opuesto al imperativo. Los programas describen los resultados esperados sin listar explícitamente los pasos a llevar a cabo para alcanzarlos.
+Lógico. El problema se modela con enunciados de lógica de primer orden.
+Funcional. Los programas se componen de funciones, es decir, implementaciones de comportamiento que reciben un conjunto de datos de entrada y devuelven un valor de salida.
+Orientado a objetos. El comportamiento del programa es llevado a cabo por objetos, entidades que representan elementos del problema a resolver y tienen atributos y comportamiento.
+Otros son de aparición relativamente reciente y no forman parte del grupo principal:
+
+Dirigido por eventos. El flujo del programa está determinado por sucesos externos (por ejemplo, una acción del usuario).
+Orientado a aspectos. Apunta a dividir el programa en módulos independientes, cada uno con un comportamiento bien definido.
+Cada paradigma es ideal para la resolución de un conjunto de problemas particular, por lo que no puede decirse que uno sea necesariamente mejor que otro.
