@@ -1,3 +1,9 @@
+#
+# Eduardo Alexis Valencia Dorantes
+# python 3.5.3
+# 20/09/2019 26/09/2019
+#
+#
 from math import sin, cos, sqrt, pi
 
 import matplotlib.pyplot as plt
