@@ -1,3 +1,9 @@
+#
+# Eduardo Alexis Valencia Dorantes
+# python 3.5.3
+# 17/09/2019
+#
+#
 print("""
 Calculo de las coordenadas de un poligono regular inscrito de lado n, donde
 n >= 3 && n<=12
