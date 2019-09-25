@@ -102,3 +102,4 @@ print("\nLas coordenadas del dodecagono inscrito son")
 coordenadas((2*pi)/12,12,radio)
 
 
+

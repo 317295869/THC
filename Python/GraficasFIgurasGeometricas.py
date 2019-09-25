@@ -1,13 +1,16 @@
 #
 # Eduardo Alexis Valencia Dorantes
 # python 3.5.3
-# 20/09/2019 26/09/2019
+# 24/09/2019 25/09/2019
 #
 #
-from math import sin, cos, sqrt, pi
+from math import sin, cos, sqrt ,pi
 
 import matplotlib.pyplot as plt
 import numpy as np
+
+#plt.show()
+
 
 r = 5
 l = 5
@@ -52,8 +55,7 @@ ax.add_patch(circulo)
 
 
 plt.legend()
-plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw() 
+plt.show()  
 
 l = 3
 a = 2*pi/l
@@ -82,3 +84,34 @@ ax.add_patch(circulo)
 
 plt.legend()
 plt.show()
+
+l = 4
+a = 2*pi/l
+R = pi
+
+x1 = 5*cos(R + a)
+x2 = 5*cos(R + 2*a)
+x3 = 5*cos(R + 3*a)
+x4 = 5*cos(R + 4*a)
+
+y1 = 5*sin(R + a)
+y2 = 5*sin(R + 2*a)
+y3 = 5*sin(R + 3*a)
+y4 = 5*sin(R + 4*a)
+
+x = np.array([x1,x2,x3,x4,x1])
+y = np.array([y1,y2,y3,y4,y])
+
+circulo= plt.Circle((0,0), radius= 5,color='b')
+ax=plt.gca()
+ax.spines['left'].set_position('center')
+ax.spines['bottom'].set_position('center')
+ax.set_xlim([ -(r+1),(r+1) ])
+ax.set_ylim([ -(r+1),(r+1) ])
+plt.gca().set_aspect('equal', adjustable='box')
+plt.plot(x, y, label='linear', color='r')
+ax.add_patch(circulo)
+
+plt.legend()
+plt.show()
+ 
