@@ -1,0 +1,80 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 6
+model name	: Common KVM processor
+stepping	: 1
+microcode	: 0x1
+cpu MHz		: 3399.996
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx lm constant_tsc nopl xtopology cpuid tsc_known_freq pni cx16 x2apic hypervisor pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 6799.99
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 6
+model name	: Common KVM processor
+stepping	: 1
+microcode	: 0x1
+cpu MHz		: 3399.996
+cache size	: 16384 KB
+physical id	: 1
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx lm constant_tsc nopl xtopology cpuid tsc_known_freq pni cx16 x2apic hypervisor pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 6799.99
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 52:54:00:12:34:56 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute ens3
+       valid_lft 84750sec preferred_lft 84750sec
+    inet6 fec0::ea61:7245:b155:1b35/64 scope site dynamic noprefixroute 
+       valid_lft 86163sec preferred_lft 14163sec
+    inet6 fe80::2905:d8e3:2d:2d9a/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+              total        used        free      shared  buff/cache   available
+Mem:        2998464     1330180      584792       56196     1083492     1455104
+Swap:       3145724           0     3145724
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 1.5G     0  1.5G   0% /dev
+tmpfs                    1.5G   26M  1.5G   2% /dev/shm
+tmpfs                    1.5G  1.3M  1.5G   1% /run
+tmpfs                    1.5G     0  1.5G   0% /sys/fs/cgroup
+/dev/mapper/fedora-root   26G  7.3G   17G  31% /
+tmpfs                    1.5G   80K  1.5G   1% /tmp
+/dev/sda1                976M  146M  764M  16% /boot
+tmpfs                    293M   11M  283M   4% /run/user/1000
