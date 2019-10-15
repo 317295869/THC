@@ -1,88 +1,141 @@
-"""
-Funciones definidas por el usuario
-"""
+#
+# Eduardo Alexis Valencia Dorantes
+# Python 3.6.8
+# 10-11-19
+#
+
+#Funciones definidas por el usuario
+
+num1=-5
+num2=3
+num3=-2
+num4=-15
+num5=20
+
+num6=7.89999
+num7=1.22
+num8=3.5
+
 def vabs(x):
-    '''Regresa el valor absoluto del numero x.
-Regresa  x si x es mayor que cero
-Regresa -x si x es menor que cero
-'''
-    return(resultado)
+ 
+   if x >= 0:
+       return(x) 
+   else:
+        valor_absoluto = x*(-1)
+        return(valor_absoluto) 
+
+absoluto=vabs(num1)
+print("El valor absoluto de %d es %d"%(num1,absoluto))
+
 
 def signo(x):
-    '''Regresa el signo del numero x.
-Regresa  1 si x es positivo
-Regresa  0 si x es cero
-Regresa -1 si x es negativo
-'''
-    return(resultado)
+
+    if x>0:
+        return (1)
+    if x < 0:
+        return (-1)
+    if x==0:
+        return (0)
+
+signo= signo(num1)
+print("El signo de %d es %d"%(num1,signo))
+
 
 def multiplica(a,b):
-    '''Regresa el resultado de multiplicar
-    el numero a por el numero b
-'''
-    return(resultado)
+    c=a*b
+    return(c)
+
+resultado=multiplica(num1,num2)
+print("La multiplicacion de %d por %d es %d"%(num1,num2,resultado))
 
 def elMayor(a,b):
-    '''Regresa el mayor de los numeros: a, b
-'''
-    return(resultado)
+    if a>=b:
+      return(a)
+    else:
+      return(b)
+
+comparacion=elMayor(num2,num3)
+print("El numero mayor entre %d y %d es %d"%(num2,num3,comparacion))
 
 def elMenor(a,b):
-    '''Regresa el menor de los numeros: a, b
-'''
-    return(resultado)
+    if a<=b:
+        return(a)
+    else:
+      return(b)
+
+comparacion=elMenor(num3,num4)
+print("El numero menor entre %d y %d es %d"%(num3,num4,comparacion))
 
 def rectangular(x):
-    '''Regresa la evaluacion de x en
-la funcion definida como:
+    
+    if vabs(x)>0.5:
+        return(0)
+    if vabs(x)==0.5:
+        return(0.5)
+    if vabs(x)<0.5:
+        return(1)
+
+print("""
+La funcion definida como:
 Regresa 0   si |x| > 1/2
 Regresa 1/2 si |x| = 1/2
 Regresa 1   si |x| < 1/2
-'''
-    return(resultado)
+Si el valor de x=%d, entonces la funcion regresa %d
+"""
+%(num3, rectangular(num3))
+      )
 
 def identidad(x):
-    '''regresa la identidad del valor x
-'''
-    return(resultado)
+    return(x)
+
+print("La identidad de %d es %d"%(num2,identidad(num2)))
 
 def rampa(x):
-    '''Regresa 0 si x < 0
+    if x<0:
+        return (0)
+    if x >= 0:
+        return (x)
+
+print(
+"""
+Regresa 0 si x < 0
 Regresa x si x >= 0
-'''
-    return(resultado)
+Si el valor de x=%d, entonces la funcion regresa %d
+"""
+%(num5,rampa(num5))
+    )
 
 def parte_entera(x):
-    ''' Regresa la parte entera de x,
-por ejemplo si x = 9.23 regresa 9
-'''
-    return(resultado)
-
+    a=int(x)
+    return(a)
+print("La parte entera de %f es %d"%(num6,parte_entera(num6)))
+    
 def enteroMayor(x):
-    '''Regresa el entero mayor de x
-ej, si x = 7.1 regresaria 8
-'''
-    return(resultado)
+    import math
+    return(math.ceil(x))
+print("El entero mayor de %f es %d"%(num8,enteroMayor(num8)))
 
 def enteroMenor(x):
-    '''Regresa el entero meno de x
-ej, si x = 7.1 regresaria 7
-'''
-    return(resultado)
+    import math
+    return(math.floor(x))
+print("El entero menor de %f es %d"%(num7,enteroMenor(num7)))
 
 def parte_fraccionaria(x):
-    ''' Regresa la parte fraccionaria de x definida como
-x - enteroMenor(x)
-ej, si x = 9.23 regresaria:
-    9.23 - floor(9.23) = 9.23 - 9
-regresa 0.23
-ej, si x = -7.26 regresaria:
-    -7.26 - floor(-7.26) = -7.26 - (-8) = -7.26 + 8
-regresa 0.74
-'''
-    return(resultado)
+    return(x-enteroMenor(x))
+print("La parte fraccionaria de %f es %f"%(num6,parte_fraccionaria(num6)))
 
 def ulam(n):
-    '''Regresa n/2 si n es par
-Regresa 3*n + 1 si n es impar
-'''
+    if n%2 == 0:
+        return(n/2)
+    else:
+        return(3*n+1)
+print("""
+Si el numero es par, lo divide entre 2
+Si el numero es impar, lo multiplica por 3 y le suma 1
+Para el numero %d, entonces %d
+      """
+%(num2,ulam(num2))
+      )
+
+## areas y perimetros de las figuras inscritas
+## 
