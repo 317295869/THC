@@ -1,49 +1,61 @@
-def Regla30 (x,y,z):
-    if (x,y,z) == (1,1,1):
+#
+# Eduardo Alexis Valencia Dorantes
+# Python 3.6.8
+# 22-10-2019
+#
+#
+
+# Resolver el problema de los automatas celulares de primeros vecinos
+# con la regla 30
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+#plt.show() 
+
+
+def regla30(a,i,s):
+    
+    if a == 1 and i == 1 and s == 1:
         resultado = 0
-    if (x,y,z) == (1,1,0):
+    if a == 1 and i == 1 and s == 0:
         resultado = 0
-    if (x,y,z) == (1,0,1):
+    if a == 1 and i == 0 and s == 1:
         resultado = 0
-    if (x,y,z) == (1,0,0):
+    if a == 1 and i == 0 and s == 0:
         resultado = 1
-    if (x,y,z) == (0,1,1):
+    if a == 0 and i == 1 and s == 1:
         resultado = 1
-    if (x,y,z) == (0,1,0):
+    if a == 0 and i == 1 and s == 0:
         resultado = 1
-    if (x,y,z) == (0,0,1):
+    if a == 0 and i == 0 and s == 1:
         resultado = 1
-    if (x,y,z) == (0,0,0):
+    if a == 0 and i == 0 and s == 0:
         resultado = 0
     return(resultado)
 
 n = 43
-c = [0]*n
-c[n//2] = 1
+cel = [0]*n
+cel[n//2] = 1
 
+print(cel)
 
-e=[]
+e = []
 for i in range(n):
-    if c[i] == 1:
-        e.append(i)
+    e.append(regla30(cel[i-1], cel[i], cel[(i+1)%n]))
 print(e)
-Y=[21]*len(e)
 
+cel = e.copy()
+e = []
+for j in range(22):
+    e = []
+    for i in range(n):
+         e.append(regla30(cel[i-1], cel[i], cel[(i+1)%n]))
+    cel = e.copy()
+    print(cel)
 
-E = []
-t = 0
-for valor in c:
-    if valor == 1:
-        E.append(t)
-    t += 1    
+Y = [21]*len(e)
 
-c = e.copy()
-print(c)
-for i in range(22):
-    e=[]
-    for i in range(43):
-        e.append(Regla30(c[i-1],c[i],c[(i+1)%43]))
-    c = e.copy()
-    print(c)
-        
-print(E)
+plt.plot(e, Y, "sb")
+plt.show()
+
