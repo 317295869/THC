@@ -51,11 +51,10 @@ for j in range(22):
     e = []
     for i in range(n):
          e.append(regla30(cel[i-1], cel[i], cel[(i+1)%n]))
-    cel = e.copy()
-    print(cel)
+    cel = e.copy() 
+    print(cel) #Mostrar la evolucion después de ser calculada
 
 Y = [21]*len(e)
-
-plt.plot(e, Y, "sb")
+p
+plt.plot(cel,Y, 'sb')
 plt.show()
-
