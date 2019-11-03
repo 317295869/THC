@@ -16,45 +16,49 @@ import numpy as np
 
 def regla30(a,i,s):
     
-    if a == 1 and i == 1 and s == 1:
-        resultado = 0
-    if a == 1 and i == 1 and s == 0:
-        resultado = 0
-    if a == 1 and i == 0 and s == 1:
-        resultado = 0
-    if a == 1 and i == 0 and s == 0:
-        resultado = 1
-    if a == 0 and i == 1 and s == 1:
-        resultado = 1
-    if a == 0 and i == 1 and s == 0:
-        resultado = 1
-    if a == 0 and i == 0 and s == 1:
-        resultado = 1
-    if a == 0 and i == 0 and s == 0:
-        resultado = 0
+    if a == '1' and i == '1' and s == '1':
+        resultado = '0'
+    if a == '1' and i == '1' and s == '0':
+        resultado = '0'
+    if a == '1' and i == '0' and s == '1':
+        resultado = '0'
+    if a == '1' and i == '0' and s == '0':
+        resultado = '1'
+    if a == '0' and i == '1' and s == '1':
+        resultado = '1'
+    if a == '0' and i == '1' and s == '0':
+        resultado = '1'
+    if a == '0' and i == '0' and s == '1':
+        resultado = '1'
+    if a == '0' and i == '0' and s == '0':
+        resultado = '0'
     return(resultado)
 
 n = 43
-cel = [0]*n
-cel[n//2] = 1
+cel = ['0']*n
+cel[n//2] = '1'
 
-print(cel)
+# print(cel)
+m=[i for i,x in enumerate(cel) if x=='1']
+print(m)
+"""Y= [21]
+plt.plot(m,Y, 'sb')
+plt.show()"""
 
 e = []
 for i in range(n):
     e.append(regla30(cel[i-1], cel[i], cel[(i+1)%n]))
-print(e)
+# print(e)
+
 
 cel = e.copy()
-e = []
-for j in range(22):
+for j in range(19):
     e = []
     for i in range(n):
          e.append(regla30(cel[i-1], cel[i], cel[(i+1)%n]))
     cel = e.copy() 
-    print(cel) #Mostrar la evolucion después de ser calculada
-
-Y = [21]*len(e)
-p
-plt.plot(cel,Y, 'sb')
-plt.show()
+    # print(cel) #Mostrar la evolucion después de ser calculada
+    m=[i for i,x in enumerate(cel) if x=='1']
+    print(m)
+    X= []
+    
