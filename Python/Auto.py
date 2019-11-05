@@ -34,6 +34,8 @@ def regla30(a,i,s):
         resultado = '0'
     return(resultado)
 
+plt.axis([0,43,0,22])
+
 n = 43
 cel = ['0']*n
 cel[n//2] = '1'
@@ -41,9 +43,9 @@ cel[n//2] = '1'
 # print(cel)
 m=[i for i,x in enumerate(cel) if x=='1']
 print(m)
-"""Y= [21]
+Y= [21]
 plt.plot(m,Y, 'sb')
-plt.show()"""
+plt.show()
 
 e = []
 for i in range(n):
@@ -60,5 +62,8 @@ for j in range(19):
     # print(cel) #Mostrar la evolucion después de ser calculada
     m=[i for i,x in enumerate(cel) if x=='1']
     print(m)
-    X= []
+    """X = np.array([21])
+    y = np.array([cel])
+    plt.plot(x, y, 'sb')
+    plt.show()"""
     
