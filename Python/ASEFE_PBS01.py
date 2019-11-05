@@ -42,7 +42,7 @@ while (b-h)>epsilon:
     alturas.append(h)
 #    if h == b  == False:
 #        break
-    print("     0      %.2f   %.2f"%(b,h))
+    print("     1      %.2f   %.2f"%(b,h))
 print('..........................')
 
 print('x = 95')
@@ -82,7 +82,7 @@ while (b-h)>epsilon:
     alturas.append(h)
 #    if h == b  == False:
 #        break
-    print("     0      %.2f   %.2f"%(b,h))
+    print("     1      %.2f   %.2f"%(b,h))
 print('..........................')
 
 print('x = .5')
@@ -122,7 +122,7 @@ while (b-h)>epsilon:
     alturas.append(h)
 #    if h == b  == False:
 #        break
-    print("     0      %.2f   %.2f"%(b,h))
+    print("     1      %.2f   %.2f"%(b,h))
 print('..........................')
 
 print('x = .125')
@@ -148,7 +148,7 @@ while (b-h)>epsilon:
     alturas.append(h)
 #    if h == b  == False:
 #        break
-    print("     0      %.2f   %.2f"%(b,h))
+    print("     1      %.2f   %.2f"%(b,h))
 
 
 """bases=[]
