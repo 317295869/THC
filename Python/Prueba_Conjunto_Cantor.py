@@ -5,6 +5,8 @@ import numpy as np
 
 plt.axis([0,30,0,20])
 
+#Aqui nos muestra como inserte los valores para que la recta tenga una \
+#posicion en el plano cartesiano
 l=30
 n=15
 

@@ -39,15 +39,13 @@ plt.axis([0,43,0,22])
 n = 43
 cel = ['0']*n
 cel[n//2] = '1'
+e = []
 
 # print(cel)
 m=[i for i,x in enumerate(cel) if x=='1']
 print(m)
-Y= [21]
-plt.plot(m,Y, 'sb')
-plt.show()
+plt.plot([21],[m],"sb")
 
-e = []
 for i in range(n):
     e.append(regla30(cel[i-1], cel[i], cel[(i+1)%n]))
 # print(e)
@@ -61,9 +59,10 @@ for j in range(19):
     cel = e.copy() 
     # print(cel) #Mostrar la evolucion después de ser calculada
     m=[i for i,x in enumerate(cel) if x=='1']
+    a=[]
     print(m)
     """X = np.array([21])
     y = np.array([cel])
-    plt.plot(x, y, 'sb')
+    plt.plot([m],[a[i]]  , 'sb')
     plt.show()"""
     
