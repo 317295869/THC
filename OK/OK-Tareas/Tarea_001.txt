@@ -1,0 +1,14 @@
+Problema de Física: Trabajo
+1-Un automóvil sube por una carretera de 3° de inclinación con una velocidad constante de 45 km/h. La masa del automóvil es de 1600 kg. Despreciar las fuerzas de fricción.
+
+- ¿Cuál es la potencia desarrollada por el motor?
+- ¿Cuál es el trabajo que ha efectuado en 10 s?
+
+Solución:
+Descomponemos el peso, en la dirección a lo largo del plano y perpendicular al plano inclinado.
+
+La fuerza que ejerce el motor, para que el automóvil ascienda por el plano inclinado con velocidad constante, es F=1600·9.8·sin3=820.63 N
+
+La potencia es el producto escalar de la fuerza por la velocidad de 45 km/h=12.5 m/s, F·v·cos0=820.63·12.5=10258 W
+
+El trabajo es el producto de la potencia por el tiempo, o de la fuerza por el desplazamiento, W=(F·v)·t=102578 J
