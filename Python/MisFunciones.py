@@ -1,3 +1,4 @@
+# !/usr/bin/python3.6
 #
 # Eduardo Alexis Valencia Dorantes
 # Python 3.6.8
