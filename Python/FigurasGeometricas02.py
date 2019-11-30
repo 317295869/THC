@@ -138,7 +138,7 @@ arreglo_y=arreglos[1]
 perimetro(8,arreglo_x,arreglo_y)
 area(8,arreglo_x,arreglo_y)
 
-print("\nLas coordenadas del nonagono inscrito son")
+print("\nLas coordenadas del eneagono inscrito son")
 arreglos=coordenadas((2*pi)/9,9,radio)
 arreglo_x=arreglos[0]
 arreglo_y=arreglos[1]
@@ -152,7 +152,7 @@ arreglo_y=arreglos[1]
 perimetro(10,arreglo_x,arreglo_y)
 area(10,arreglo_x,arreglo_y)
 
-print("\nLas coordenadas del undecagono inscrito son")
+print("\nLas coordenadas del endecagono inscrito son")
 arreglos=coordenadas((2*pi)/11,11,radio)
 arreglo_x=arreglos[0]
 arreglo_y=arreglos[1]

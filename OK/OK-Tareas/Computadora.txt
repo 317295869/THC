@@ -1,0 +1,8 @@
+Modelo del procesador: Intel (R) Celeron (R) CPU 4205U @ 1.80 GHz 1.180 GHz
+Cantidad de Memoria RAM: 4.00 GB 
+Capacidad de Almacenamiento Permanente: 930 GB
+Tipo de Conexión: Bluetooth, LAN Inalámbrica
+
+Celeron es el nombre que lleva la línea de microprocesadores de bajo costo de Intel. 
+El objetivo era poder, mediante esta segunda marca, penetrar en los mercados
+cerrados a los Pentium, de mayor rendimiento y precio.
