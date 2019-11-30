@@ -1,0 +1,13 @@
+Entornos de desarrollo para Python:
+1. PyDev. PyDev es un complemento de terceros para Eclipse. 
+Es un entorno de desarrollo integrado utilizado para programar en Python 
+que admite la refactorización de código, la depuración gráfica, 
+el análisis de código, entre otras características.
+2. PyCharm. PyCharm es un entorno de desarrollo integrado utilizado 
+en la programación de computadoras, específicamente para el lenguaje Python. 
+Está desarrollado por la empresa checa JetBrains.
+3. Wing IDE. La familia Wing Python IDE de entornos de desarrollo 
+integrados de Wingware se creó específicamente para el lenguaje de 
+programación Python. 
+4. Spyder. Spyder es un entorno de desarrollo integrado multiplataforma 
+de código abierto para la programación científica en el lenguaje Python.
