@@ -1,0 +1,119 @@
+\documentclass[letter,12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{glosstex}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{tikz,stackengine}
+
+%opening
+\title{Reporte 02 Evaluación 29 10 2019}
+\author{Eduardo Alexis Valencia Dorantes}
+\date{30/Octubre/2019}
+\begin{document}
+	
+\maketitle{ASEFE-PBS.py}
+
+\begin{abstract}
+Dado que ya tenemos hecho el programa "ASEFE-PBS.py" daremos algunos comentarios sobre el mismo.
+\end{abstract}
+
+\section*{La idea}
+A partir de un rectángulo de base x y altura 1 definiremos la raíz cuadrada de cualquier número, siempre y cuando este sea mayor a cero.
+\section*{El procedimiento}
+Empezaremos a definir nuestras igconitas que irán tomando los valores que iremos requiriendo conforme avancemos en el problema.
+
+Ya teniendo nuestras incógnitas podemos proceder especificando cual será nuestra condición inicial. Después de ello tenemos que definir la función que nos dará las condiciones consecutivas a la inicial para calcular la raíz de nuestro primer rectángulo.
+
+Lo único que restaría es pedirle a Python que nos muestre los resultados en forma de tabla; y lo siguiente es hacerlo lo mismo con cualquier rectángulo con base distinta al anterior.
+\newpage
+\section*{Resultados}
+Para $x = 81$
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{ |c|c|c| } 
+		\multicolumn{3}{c}{$x = 81$}\\
+		\hline
+		rectángulo & b & h \\
+		\hline
+		0& 81	& 1\\
+		1& 41.00	& 1.98\\
+		2& 21.49	& 3.77\\
+		3& 12.63	& 6.41\\
+		4&  9.52	& 8.51\\
+		5&  9.01	& 8.99\\
+		6&  9.00    & 9.00\\
+		\hline
+	\end{tabular}
+	\caption{Rectángulos para $x$ = 81 }
+	\label{table:1}
+\end{table}
+
+Para $x = 95$
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{ |c|c|c| } 
+		\multicolumn{3}{c}{$x = 95$}\\
+		\hline
+		rectángulo & b & h \\
+		\hline
+		0& 95	& 1\\
+		1&     48.00&  1.98\\
+		2&     24.99&  3.80\\
+		3&     14.40&  6.60\\
+		4&     10.50&  9.05\\
+		5&      9.77&  9.72\\
+		6&      9.75&  9.75\\
+		\hline
+	\end{tabular}
+	\caption{Rectángulos para $x$ = 95 }
+	\label{table:1}
+\end{table}
+\newpage
+Para $x = 0.5$
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{ |c|c|c| } 
+		\multicolumn{3}{c}{$x = 0.5$}\\
+		\hline
+		rectángulo & b & h \\
+		\hline
+		0& 0.5	& 1\\
+		1&      0.75&  0.67\\
+		2&      0.71&  0.71\\
+		3&      0.71&  0.71\\
+		4&      0.71&  0.71\\
+		5&      0.71&  0.71\\
+		6&      0.71&  0.71\\
+		\hline
+	\end{tabular}
+	\caption{Rectángulos para $x$ = 0.5 }
+	\label{table:1}
+\end{table}
+
+Para $x = 0.125$
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{ |c|c|c| } 
+		\multicolumn{3}{c}{$x = 0.125$}\\
+		\hline
+		rectángulo & b & h \\
+		\hline
+		0& 0.125	& 1\\
+		1&      0.56&  0.22\\
+		2&      0.39&  0.32\\
+		3&      0.36&  0.35\\
+		4&      0.35&  0.35\\
+		5&      0.35&  0.35\\
+		6&      0.35&  0.35\\
+		\hline
+	\end{tabular}
+	\caption{Rectángulos para $x$ = 0.125 }
+	\label{table:1}
+\end{table}
+
+\begin{thebibliography}{0}
+	\bibitem[PBS1996]{AlgoritmosPablo}Barrera Sánchez Pablo, Algoritmos Sencillos para Evaluar Funciones Elementales, 1996.
+\end{thebibliography}
+
+\end{document}
