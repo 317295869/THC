@@ -1,0 +1,49 @@
+1- Automata celular|Un autómata celular (A.C.) es un modelo matemático 
+para un sistema dinámico que evoluciona en pasos discretos.| 
+https://es.wikipedia.org/wiki/Aut%C3%B3mata_celular
+2- Sistema dinamico discreto|Un sistema dinámico es un sistema cuyo 
+estado evoluciona con el tiempo.|
+https://es.wikipedia.org/wiki/Sistema_din%C3%A1mico 
+3- Sistema Complejo| Un sistema complejo está compuesto por varias partes interconectadas o entrelazadas cuyos vínculos crean información adicional 
+no visible antes por el observador.|
+https://es.wikipedia.org/wiki/Sistema_complejo
+4- Metodo computacional|La computación científica o ciencia computacional es el campo de estudio relacionado con la construcción de modelos matemáticos y técnicas numéricas para resolver problemas científicos, 
+de ciencias sociales y problemas de ingeniería.|
+https://es.wikipedia.org/wiki/Computaci%C3%B3n_cient%C3%ADfica
+5- Condicion periodica a la frontera| En matemáticas, en el campo de las ecuaciones diferenciales, un problema de valor de frontera (también llamados como problemas de valor o condición, de borde o contorno) se lo denomina al conjunto de una ecuación diferencial y a las condiciones 
+de frontera o contorno.|
+https://es.wikipedia.org/wiki/Problema_de_condici%C3%B3n_de_frontera
+6- Auto-similar|En Matemática, la autosimilitud, a veces llamada 
+autosemejanza, es la propiedad de un objeto (llamado objeto autosimilar) 
+en el que el todo es exacta o aproximadamente similar a una parte de sí 
+mismo, por ejemplo cuando el todo tiene la misma forma que una o varias 
+de sus partes.|https://es.wikipedia.org/wiki/Autosimilitud
+7- Fractal| Un fractal es un objeto geométrico cuya estructura básica, 
+fragmentada o aparentemente irregular, se repite a diferentes escalas.|
+https://es.wikipedia.org/wiki/Fractal
+8- Dimension fractal|La dimensión fractal es un exponente que da 
+cuenta de cuán completamente parece llenar un fractal el espacio 
+conforme se amplía el primero hacia escalas más y más finas. 
+No existe una única dimensión fractal sino una serie de dimensiones 
+que, frecuentemente, resultan equivalentes aunque no siempre.|
+https://es.wikipedia.org/wiki/Dimensi%C3%B3n_fractal
+9- Mecanica estadistica|La física estadística o mecánica estadística 
+es una rama de la física que mediante la teoría de la probabilidad 
+es capaz de deducir el comportamiento de los sistemas físicos 
+macroscópicos constituidos por una cantidad estadísticamente 
+significativa de componentes equivalentes a partir de ciertas 
+hipótesis sobre los elementos o partículas que los conforman 
+y sus interacciones mutuas.|
+https://es.wikipedia.org/wiki/F%C3%ADsica_estad%C3%ADstica
+10- Juego de la vida|El juego de la vida es un autómata celular 
+diseñado por el matemático británico John Horton Conway en 1970.|
+https://es.wikipedia.org/wiki/Juego_de_la_vida
+11- Vecindad de Von Neumann|En la teoría de autómatas celulares, 
+el concepto de vecindad de von Neumann se define como el conjunto 
+de las cuatro celdas que rodean ortogonalmente a una celda central 
+en un enrejado cuadrado bidimensional.|
+https://es.wikipedia.org/wiki/Vecindad_de_von_Neumann
+12- Vecindad de Moore|En la teoría de autómatas celulares, 
+la Vecindad de Moore se define como el conjunto de las ocho celdas 
+que rodean una celda central en un enrejado cuadrado bidimensional.|
+https://es.wikipedia.org/wiki/Vecindad_de_Moore   
