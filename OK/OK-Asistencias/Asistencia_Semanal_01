@@ -1,1 +1,23 @@
 06-Agosto-2019 y 08-Agosto-2019
+
+La primera semana vimos temas que nos resultarán útiles el resto del curso y 
+de la carrera. Entre lo primero que se trató se encuentra el concepto de Open 
+Source, o software libre, que en pocas palabras se trata de programas cuya 
+distribución es gratuita, así como el hecho de que la lectura y edición del 
+código tambien es gratuita y permitida a todo público. Algunos ejemplos de 
+este tipo de programa son Libre Office, alternativa gratuita a Microsoft 
+Office, 7-Zip, y el sistema operativo Linux. Linux es recalcable 
+puesto que al ser de codigo abierto, es gratuito, y cualquier persona lo 
+puede descargar de manera legal en cualquier momento, tambien es 
+recalcable puesto que a diferencia de los dos sistemas operativos 
+convencionales, Windows y iOS, no viene instalado de manera predeterminada 
+en ninguna computadora, hecho que resulta en que sea menos utilizado y 
+conocido que los dos anteriores, pero no por eso menos útil. 
+Vimos que un sistema operativo está formado por el kernel y por las 
+aplicaciones, siendo el kernel el núcleo, y quien organiza y dirige todos 
+los procesos en el sistema, mientras que las aplicaciones sólo realizan 
+tareas específicas cuando así se los indica el kernel. Asímismo fueron 
+mensionados algunos tipos de archivo y su funcíon, como los ejcutables . exe 
+y .com que corren una aplicación, los .rar y .zip, que comprimen archivos, 
+disminuyendo su tamaño y empaquetandolos, y los .iso, que requieren 
+ser montados para poder ser utilizados.
