@@ -1,1 +1,11 @@
 05-11-2019 y 07-11-2019
+
+Esta semana se nos presentó elif en Python, que sunciona como un elseif
+en C, y resulta muy útil, pues nos evita la necesidad de anidar ifs, y 
+facilita tanto el trabajo como la lectura y mejora la eficiencia. 
+ Se nos mostró también lo que es un diccionario, que es un objeto 
+que incluye objetos denominados "campo llave" a los que se les asigna otro 
+objeto, denominado "información asociada", que bien puede ser una lista, 
+si se desea asignar más de un objeto.  
+ Debido a que una función es un objeto, es posible crear listas de funciones,y 
+de la misma manera, una función puede recibir otra función como argumento. 
