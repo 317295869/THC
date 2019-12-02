@@ -1,0 +1,43 @@
+\documentclass{article}%esta linea indica el tipo de documento que vamo a crear
+\usepackage{amsmath}%biblioteca que nos sirve para utilizar funciones matematicas%\usepackage{hyperref}
+\usepackage{graphicx}%nos permite usar imagenes en nuestro documento
+\usepackage{glossaries}
+\usepackage[spanish]{babel}
+
+%opening
+\title{Funciones En LaTex}
+\author{Eduardo Alexis Valencia Dorantes}
+\date{19/Noviembre/2019}
+
+\begin{document}
+	\begin{titlepage}
+		\maketitle
+		\begin{align*}
+		2x - 5y &= 8\\
+		3x +9 &= -12
+		\end{align*}
+\begin{gather*}
+2x + 5y = 8\\
+3x^2 + 9y = 3a +c
+\end{gather*}
+
+\begin{flushleft}%Alineación izquierda
+$\frac{\partial
+f}{\partial x}$	
+\end{flushleft}
+
+\section*{incluir Archivos}
+%\input{Tareas/glosario.txt}
+	
+$ f(x,y)=(\sin y-y\sin x+x,\cos x+xy+y) $
+
+\[ x_{2}, x^{2} ,\frac{x^{2}}{2} \]
+
+\[f(n) = 
+\left\{\begin{array}{l
+l}n/2 & \quad \mbox{if $n$
+is even}\\-(n+1)/2 & \quad
+\mbox{if $n$ is odd}\\
+\end{array} \right. \]
+    \end{titlepage}
+\end{document}
