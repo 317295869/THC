@@ -1,1 +1,14 @@
 29-10-2019 y 31-10-2019
+
+Esta semana se utilizó el problema de los autómatas para ejemplificar y dejar 
+más claros algunos concepots, pero ya no fue en lo que se centró la clase.
+Se utilizaron por primera vez las listas por comprensión, que son en escencia 
+crear listas nuevas a partir de valores.Se nos mostró el comando format, que 
+fue utilizado para cambiar un valor numérico representado en sistema decimal a 
+sistema binario, el cual es presentado en forma de cadena. 
+Debido a que trabajar con una cadena puede parecer restrictivo, se nos 
+presentó también el comando int, que convierte una cadena de valores numéricos 
+a valores enteros, permitiendo que se trabaje con el valor numérico de dicha 
+cadena. También se nos presentó el comando while, que se utiliza en un ciclo 
+for, para que se ejecute el ciclo siempre que se cumpla una condición, y en el 
+momento en que se deje de cumplir, se acaba el ciclo.
