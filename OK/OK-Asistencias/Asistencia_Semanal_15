@@ -1,1 +1,10 @@
 12-11-2019 y 14-11-2019
+
+Esta semana se nos aclaró que implementar, de la manera en que se utiliza la 
+palabra en el curso, equivale a traducir un problema a Python. 
+Se nos presentó fabs, que equivale a usar abs, para flotantes. 
+Es también importante mencionar que se estuvo trabajando con la distinción 
+entre funciones recursivas e iterativas, que consiste en que la recursividad 
+depende de elementos anteriores, y la iteración es únicamente la repetición de 
+un proceso. Se nos mostró también el comando chmod + x, que otorga permisos de 
+ejecución al archivo con el que se utilice.
