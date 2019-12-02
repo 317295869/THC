@@ -1,1 +1,9 @@
 19-11-2019 y 21-11-2019
+
+Esta semana se nos recordó lo que es la ruta absoluta y su relación con la 
+ruta relativa. 
+La absoluta empieza desde la raiz, y llega hasta el archivo deseado, mientras 
+que la relativa comienza desde el directorio actual hasta llegar al archivo 
+deseado. Ademas resultó relevante que si se quiere utilizar el directorio 
+anterior con una ruta relativa se puede usar ../directorio. Posterior a este
+ recordatorio se volvió a utilizar LaTeX.
