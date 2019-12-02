@@ -1,1 +1,9 @@
 22-10-2019 y 24-10-2019
+
+Esta semana se continuó trabajando con el problema de los automatas que se 
+comenzó la semana pasada. 
+Parte importante de lo que se hizo esta semana tiene que ver con la 
+distinción entre índices y elementos en una lista o en una tupla, siendo que 
+los índices hacen referencia al lugar de cada elemento en la tupla, y los 
+elementos hacen referencia al contenido, distinción que resultó de gran 
+importancia al momento de graficar. 
