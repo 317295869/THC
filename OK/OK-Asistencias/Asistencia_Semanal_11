@@ -1,1 +1,11 @@
 15-10-2019 y 17-10-2019
+
+Esta semana se comenzó a trabajar con el problema de los autómatas celulares 
+de primeros vecinos. Específicamente con la regla 30. El problema lo 
+abordamos con Python, utilizando sistema binario, en el eue los 1 equivalen a 
+los cuadritos negros, y los 0 equivalen a los cuadritos blancos. También se 
+vio //, que se utiliza para dividir y obtener solamente la parte entera. 
+Asímismo, se vio %, que se utiliza para obtener el residuo de una división. 
+Para el problema también se utilizó c= [0]*43, que crea una lista de 43 0s. 
+Finalmente también se vio t+=1, que si se encuentra en un ciclo for, 
+le suma 1 a t por cada repetición, análogamente a +=, también sirven-=, /= y *=.
