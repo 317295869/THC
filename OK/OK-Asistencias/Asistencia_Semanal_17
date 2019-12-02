@@ -1,1 +1,18 @@
 26-11-2019 y 28-11-2019
+
+Esta semana se vio la función bool, que evalúa un objeto de forma booleana, 
+es decir le otorga un valor de verdad. Una variable es falsa fi no esxiste, 
+un valor numérico es falso si es 0, y una cadena es falsa si es vacía, 
+caso contrario, son verdaderas. También se comenzo a trabajar con archivos de 
+texto plano en Python, esto se hace abriendo el compilador, en nuestro caso 
+IDLE 3, desde el directorio que contiene al archivo con el que se desea 
+trabajar, para luego usar archivo=open("Archivo.txt","r"), para abrir el 
+archivo en modo de lectura, x=archivo.read() para usar al archivo como x, y 
+archivo.close() para cerrar el archivo. Se notó la diferencia entre .strip y 
+.rstrip, que es que la segunda funciona hacia la derecha, implicando la 
+existencia de .lstrip. Así mismmo se usó el comando list(string), que separa 
+cada caracter del la cadena string y hace una lista con ellos. 
+Se creó una lista por comprensión, que se ve de la siguiente 
+Asímismo, se vio que se puede utilizar un while seguido inmediatamente de un 
+objeto, que interpreta la condición como mientras el valor booleano del objeto 
+es cierta.
